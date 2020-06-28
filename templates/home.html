@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}">
+       <div class="jumbotron text-center">
+    <h1>Welcome To FlaskApp</h1>
+    <div class="lead"><p>This application is built on the Python Flask framework and is the focus for  the "Python
+                       Flask From Scratch" This application is built on the Python Flask framework and is the focus 
+                       for  the "Python Flask FThis application is built on the Python Flask framework and is the focus 
+                      for  the "Python Flask F
+                      This application is built on the Python Flask framework and is the focus for  the "Python Flask F
+                      This application is built on the Python Flask framework and is the focus for  the "Python Flask F
+                      This application is built on the Python Flask framework and is the focus for  the "Python Flask F
+                      This application is built on the Python Flask framework and is the focus for  the "Python Flask F
+                        the "Python Flask </p>
+    </div>
+     
+    {% if session.logged_in == NULL %}
+      <div class="re">
+             <a class="cta" href="/register"><button>Log In</button></a>  
+             <a class="cta" href="#"><button>Register</button></a> 
+          </div>   
+    {% endif %}
+  </div>
+{% endblock %}
+
+

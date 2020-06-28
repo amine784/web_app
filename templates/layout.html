@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
+  <!-- <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}"> -->
+</head>
+{% include 'includes/navbar.html' %}
+</body>
+ <div class="container">
+ {% block body    %} {% endblock   %}
+ </div>
+</body>
+
+<footer >
+  <div class="row">
+    <div class="column"> <h3>About</h3>
+      <ul class="bigFont">
+        <li><a href="#">Works</a></li>
+        <li><a href="#">Releases</a></li>
+        <li><a href="#">Strategy</a></li>
+        <li><a href="#">Customers</a></li>
+      </ul>
+      </div>
+    <div class="column"><h3>Resources</h3>
+      <ul class="bigFont">
+        <li><a href="#">Developer</a></li>
+        <li><a href="#">Get Started</a></li>
+        <li><a href="#">Guide</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="column"><h3>Contact</h3>
+      <ul class="bigFont">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+    </div>
+               <div class="ft-main-item">
+                     <div class="column"><h3>Stay Updated</h3>
+                      <p class="formet">Subscribe to our newsletter to get our latest news.</p>
+                         <form>
+                                <input type="email" name="email" placeholder="Enter email address">
+                                <input type="submit" value="Subscribe">
+                         </form>
+                      </div>
+               </div>
+  </div>
+     
+    <div class="ft-social">
+    <ul class="ft-social-list">
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-github"></i></a></li>
+      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+  </section>
+  </div>
+
+
+
+</footer>
+</html>

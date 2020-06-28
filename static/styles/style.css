@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+li, a, button {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+} 
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 4px;
+    background-color: #24252A;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links  li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links  li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+    background-color: gray;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button{
+    background-color: rgba(0,136,169,1);
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:  rgba(0,136,169,0.8);
+}
+
+
+
+p{ 
+    text-align: justify ;
+    margin:20px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+  }
+ .reg{
+     margin-left: 60px;
+ }
+ footer {
+    color: #bbb;
+    background-color:#24252A;
+    height: 220px;
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+  }
+  .column {
+    float: right;
+    width: 25%;
+    padding: 15px 20px;
+    font-size: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+ul {
+    list-style: none;
+    padding-left: 20;
+  }
+
+.bigFont li a{
+    font-size: 12px;
+  }
+  .bigFont li a:hover{
+    text-decoration: underline;
+    
+  }
+.row{
+    height: 160px;
+}
+.ft-social {
+    padding-top: 0 1.875rem;
+    padding-bottom: 0rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1rem;
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+  }
+
+
+  .formet{
+    margin: 2px;
+    padding-bottom: 15px;
+    padding-top: 7px;
+    padding-left: 0px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #edf0f1;
+  }
+
+
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+  }
+  input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+  }
+
+
+  
+  
